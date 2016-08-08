@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome World!</title>
+	<style>
+	.container{
+		margin: 0 auto;
+		width: 80%;
+		
+	}
+	header, footer{
+		text-align: center;
+	}
+	nav{
+
+	}
+	nav ul{
+		list-style: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	nav ul li{
+		display: inline;
+	}
+	article {
+		font-family: serif;
+	}
+	</style>
+</head>
+<body>
+<div class="container">
+	<header>
+		<h1>Welcome to my webpage</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><%= link_to 'Home', root_path %></li>
+			<li>Articles</li>
+			<li>Services</li>
+			<li><%= link_to 'About', about_path %></li>
+			<li>Contact Us</li>
+		</ul>
+	</nav>
+	<article>
+		<h2>This is an Article</h2>
+		<p>This is a paragraph of an article I'm writing. I wonder what I should write. ha-deh-dah!</p>
+	</article>
+	<footer><hr></hr><P>Copywrite 2016</p></footer>
+</div> 
+	
+	
+	
+</body>
+</html>
