@@ -35,7 +35,12 @@ $navbar-default-bg: #8D54A5;
 
 .btn-xlarge {
     font-size: 1.7em;
-    background-color: black;
+    color: white;
+    background-color: rgb(199, 118, 194);
+    border: 1px solid white;
+}
+.btn-xlarge a {
+
 }
 
 .footer {
